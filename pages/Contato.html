@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header class="flex-container">
+        <img src="../images/Urbans.png" alt="logo">
+
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./Sobre.html">Sobre</a>
+            <a href="#">contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email">
+            </form>
+        </section>
+
+        <section>
+            <form>
+                <label for="phone">Numero de telefone:</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            </form>
+        </section>
+
+        <section>
+            <label for="w3review">Assunto:</label><br>
+
+            <textarea id="w3review" name="w3review" rows="4" cols="50">
+</textarea>
+        </section>
+        <button type="button">Enviar</button>
+
+    </main>
+    <footer>
+        <h4>Todos os Direitos reservados</h4>
+    </footer>
+</body>
+
+</html>

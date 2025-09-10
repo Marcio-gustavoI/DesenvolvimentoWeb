@@ -1,0 +1,55 @@
+body{
+    background-color: #dddcdf;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px 50px 10px;
+      align-items: center;
+
+}
+
+nav {
+  list-style-type: none;
+  display: flex;
+}
+
+nav a {
+  color: rgb(10, 10, 10);
+  padding: 14px 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+nav a:hover {
+ background-color: rgb(189, 192, 192);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+article, section > p, h1 {
+    text-align: justify;
+    padding: 0 15px;
+}
+
+#capa {
+  display: flex;
+  justify-content: center;
+}
+
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+
+
